@@ -23,3 +23,4 @@ if __name__ == "__main__":  # confirm if the programme run by developer
 # result r = model coeff * input by user + intercept
 # need to sync (left linkage) to update to github, commit, key in any number & click on tick on the right top icon
 # google colab - have chatgp in coding, for model programming - easier to do in google colab
+# render: new - web services, connect to github
