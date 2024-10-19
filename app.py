@@ -12,7 +12,8 @@ def index():
 
 @app.route("/prediction_DBS", methods=["GET","POST"])
 def prediction_DBS():
-        return(render_template("prediction_DBS.html"))
+        q = float(request.form.get("q"))
+        return(render_template("prediction_DBS.html", r = 90.2 + (-50.6*q)))
     
 if __name__ == "__main__":  # confirm if the programme run by developer
     app.run()
@@ -21,3 +22,4 @@ if __name__ == "__main__":  # confirm if the programme run by developer
 # WSGI communicate between backend and frontend text, so need to convert to number
 # result r = model coeff * input by user + intercept
 # need to sync (left linkage) to update to github, commit, key in any number & click on tick on the right top icon
+# google colab - have chatgp in coding, for model programming - easier to do in google colab
