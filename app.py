@@ -20,4 +20,4 @@ if __name__ == "__main__":  # confirm if the programme run by developer
 # backend to communicate frontend in python to run, need protocol WSGI and need gunicorn (programme) to run WSGI
 # WSGI communicate between backend and frontend text, so need to convert to number
 # result r = model coeff * input by user + intercept
-# need to sync (left linkage) to update to github
+# need to sync (left linkage) to update to github, commit, key in any number & click on tick on the right top icon
