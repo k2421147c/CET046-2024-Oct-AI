@@ -1,0 +1,4 @@
+#in cloud cannot put pip install ......
+# need to put all the pip install here
+flask
+gunicorn  # to run the app in the cloud 
