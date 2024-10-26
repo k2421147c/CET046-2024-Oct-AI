@@ -25,3 +25,4 @@ if __name__ == "__main__":  # confirm if the programme run by developer
 # google colab - have chatgp in coding, for model programming - easier to do in google colab
 # render: new - web services, connect to github, gunicorn: app:app (1st name of object in flask, 2nd is the name of flask file name)
 # save codespace - ctrl s
+# to check programme working, need to type in terminal python app.py
